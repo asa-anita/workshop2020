@@ -76,7 +76,7 @@ if __name__ == "__main__":
     df = df.dropna(subset=["PresentationTitle"])
     num_talks = len(df)
     print("There are {0} Talks to be scheduled".format(num_talks))
-
+    exit()
     offset = 0
 
     sequence = np.arange(0, num_talks)
