@@ -22,6 +22,7 @@ body {
 
 .jumbotron.site-header {
     background-color: #439ec9;
+    background-image: url("images/banner.jpg");
     margin-bottom: 0;
     color: #fff;
 }
@@ -137,6 +138,7 @@ body {
     background-color: #C7B097;
     min-height: 300px;
 }
+
 
 @media screen and (max-width: 991px) {
     .container .jumbotron {
